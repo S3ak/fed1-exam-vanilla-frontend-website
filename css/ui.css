@@ -8,3 +8,9 @@
 .c-card {
   border-radius: --radius-1;
 }
+
+.hero-image {
+  max-width: 480px;
+  margin: auto;
+  aspect-ratio: var(--ratio-landscape);
+}
