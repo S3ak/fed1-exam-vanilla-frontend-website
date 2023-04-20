@@ -1,6 +1,6 @@
 # FED Exam - Vanilla Front-end Website
 
-This bootstrap template is intended to help you deliever a amazing website which delights your end-users. Feel free to change, remove or start your own project from scratch. Please replace any text which starts with an "\_".
+This bootstrap template is intended to help you deliever a amazing website which delights your end-users. Feel free to change, remove or start your own project from scratch. Please replace any text which starts with an `_`.
 
 This is a vanilla website that displays a list of items fetched from an API.
 
@@ -8,12 +8,21 @@ This project was bootstrapped with Vite.
 
 ## Resources
 
+<!-- You must replace these links -->
+
 - [Brief](https://fed-vocational-astro-course.vercel.app/en/exam-1/brief)
 - [Design](_LINK_TO_FIGMA_)
 - [Production deploy](_LINK_TO_WEBSITE_)
 - [Deployment CI](_LINK_TO_NETLIFY_VERCEL_DASHBOARD_)
 - [API Docs](_LINK_TO_API_DOCS_)
 - [API Endpoint](_LINK_TO_API_DOC)
+
+## Deployment
+
+Your deployment is done via static hosting provider (Vercel is recommended).
+YOu can update your deployment pipeling by editing the [vercel.json](https://vercel.com/docs/concepts/projects/project-configuration).
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FS3ak%2Ffed1-exam-vanilla-frontend-website&env=API_TOKEN,API_SECRET&envDescription=The%20API_TOKEN%20is%20needed%20to%20access%20a%20secure%20API%20endpoint.%20This%20can%20be%20the%20Authorization%20%60Bearer%20Token%60%20header%20used%20to%20make%20queries.&envLink=https%3A%2F%2Fvitejs.dev%2Fguide%2Fenv-and-mode.html&project-name=exam-front-end&repository-name=fed1-exam-vanilla-frontend-website&skippable-integrations=1)
 
 ## Report
 
@@ -31,17 +40,23 @@ In the project directory, you can run:
 
 All of these todo's must be done to pass the asssignment.
 
-- [ ] End-user can see a list of items of the home page.
-- [ ] When the End-user clicks on an item in the list they are navigated to the details page.
-- [ ] End-user can view atleast three properties of an item in a list.
-- [ ] End-user can view atleast three properties of an item on the details page.
 - [ ] A error message is present when the End-user encounters a error while viewing the index page.
 - [ ] A error message is present when the End-user encounters a error while viewing the details page.
-- [ ] End-user can view the title of the item on the browser tab for a details page.
-- [ ] End-user can view validation message when they input an incorrect name.
-- [ ] End-user can view validation message when they input an incorrect subject that is less than 10 characters.
-- [ ] End-user can view validation message when they input an incorrect Email address.
-- [ ] End-user can view a validation message when they input an incorrect physical address that is less than 25 characters long.
+- [ ] As a customer I can view the title of the item on the browser tab for a details page.
+- [ ] As a customer I can view validation message when they input an incorrect name.
+- [ ] As a customer I can view validation message when they input an incorrect subject that is less than 15 characters.
+- [ ] As a customer I can view validation message when they input an incorrect Email address.
+- [ ] As a customer I can view a validation message when they input an incorrect physical address that is less than 25 characters long.
+- [ ] As a customer I want to be able to view the latest blog posts on the home page.
+- [ ] As a customer, I want to see a list of the first 10 blog posts on the blog section, so that I can quickly scan through the content and decide which posts I want to read.
+- [ ] As a customer I want to be able to view a list of all blog posts on the blog section.
+- [ ] As a customer I want A responsive website that can be As a customer, I want to ensure that the website is responsive and accessible so that I can access it on any device and easily navigate through it using any accessibility tools I need.
+- [ ] As a customer, I want to see a clear and visually appealing design on the website, so that I can easily read the content and engage with the website.
+- [ ] As a customer, I want to see a carousel/slider on the home page to display the latest blog posts, so that I can quickly access and view the latest content.
+- [ ] As a customer, I want to be able to click on a blog post and be taken to a page with specific details about that post, so that I can get more in-depth information about the topic.
+- [ ] As a customer, I want to be able to click on images in a blog post and see a larger version in a modal, so that I can view images in greater detail.
+- [ ] As a customer, I want to be able to easily contact the website owners through a contact form, so that I can reach out with any questions or feedback.
+- [ ] As a customer, I want to see error messages when I fill out the contact form incorrectly, so that I can correct my mistakes and successfully submit my message.
 
 ## End-user success criteria (Optional - 100%)
 
@@ -56,18 +71,25 @@ All of these todo's must be done to pass the asssignment.
 - [ ] Validation still works when End-user uses copy and pastes into input fields.
 - [ ] End-user can see a postive feedback when they input correct info and pass validation.
 - [ ] End-user can experience pleasant animations.
+- [ ] End-user needs to prove there are human using a captcha feature on the contact form.
   - [ ] Each item in the list has a staggered animation.
   - [ ] Contact form success modal fades in.
 - [ ] End-user can view a custom favicon.
 - [ ] CSS uses variables
 - [ ] Code is dry - There are no repeating functions, variables.
 - [ ] My commit messages are relavant and make sense. [How to write good commit messages](https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/)
+- [ ] As a stakeholder, I want to view the website analytics.
+- [ ] As a stakeholder, I want to show my customers a disclamer on the website, so that they are aware of the terms and conditions of using the website.
+- [ ] As a customer, I want to ensure that my personal information submitted through the contact form is kept secure and not shared with any third-party entities.
+- [ ] As a customer, I want to be able to sort, filter, or search the blog posts, so that I can quickly find the content that is most relevant to me.
+- [ ] As a customer, I want to be able to submit comments on a blog post, so that I can engage with other readers and share my thoughts on the topic.
+
 - [ ] [End-user experiences a complete custom UI design.](https://www.figma.com/file/KExTTAE75DRhq2xTvapFR4/FED-Whiteboard?node-id=0%3A1&t=UItKehGgT8gRlibY-1)
 
   - [ ] Is user-friendly
   - [ ] Effective use of the pillars of design
     - [ ] Typography
-    - [ ] COlour
+    - [ ] Colour
     - [ ] Composition
     - [ ] Art Direction
     - [ ] Motion
